@@ -1,5 +1,6 @@
-var Crowdfund = artifacts.require("./Crowdfund.sol");
+/* eslint-disable no-undef */
+const Crowdfunding = artifacts.require('Crowdfunding');
 
-module.exports = function(deployer) {
-  deployer.deploy(Crowdfund);
+module.exports = function (deployer) {
+    deployer.deploy(Crowdfunding);
 };

@@ -1,0 +1,16 @@
+/* Entire Page default CSS */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 244, 244);
+}
+
+/* Custom CSS */
+
+#dropdown-basic:after {
+    border: 0;
+    font-family: FontAwesome;
+    content: '\f142';
+    display: inline-block;
+    vertical-align: middle;
+}
